@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5972443953496082224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539719790330998901}
+  m_Layer: 0
+  m_Name: CheckpointObject
+  m_TagString: Checkpoint_object
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539719790330998901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972443953496082224}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8093318298809826493}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &9129294804942286028
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1539719790330998901}
+    m_Modifications:
+    - target: {fileID: 365658510998585682, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: fullCheckpointColor.b
+      value: 0.022027409
+      objectReference: {fileID: 0}
+    - target: {fileID: 365658510998585682, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: fullCheckpointColor.g
+      value: 0.022027409
+      objectReference: {fileID: 0}
+    - target: {fileID: 365658510998585682, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: fullCheckpointColor.r
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 365658510998585682, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: emptyCheckpointColor.b
+      value: 0.930461
+      objectReference: {fileID: 0}
+    - target: {fileID: 365658510998585682, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: emptyCheckpointColor.g
+      value: 0.9295568
+      objectReference: {fileID: 0}
+    - target: {fileID: 365658510998585682, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: emptyCheckpointColor.r
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5163
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9781476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20791169
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4088039781757084258, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4088039781757084258, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+--- !u!4 &8093318298809826493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1072133089320046705, guid: 4ae36240683645a4d9b1345225a2c823, type: 3}
+  m_PrefabInstance: {fileID: 9129294804942286028}
+  m_PrefabAsset: {fileID: 0}
